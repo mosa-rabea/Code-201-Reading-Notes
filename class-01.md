@@ -1,4 +1,4 @@
-HTML, Structure:
+gitHTML, Structure:
 HTML pages are text documents.
 HTML uses tags (characters that sit inside angled brackets) to give the information they surround special meaning.
 Tags are often referred to as elements.

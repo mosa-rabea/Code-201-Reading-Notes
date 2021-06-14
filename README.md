@@ -14,3 +14,5 @@
 | read 4      | [class-04](class-04.md)|
 | read 5      | [class-05](class-05.md)|
 | read 6      | [class-06](class-06.md)|
+| read 7      | [class-07](class-07.md)|
+| read 8      | [class-08](class-08.md)|

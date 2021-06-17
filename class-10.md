@@ -1,0 +1,11 @@
+# Debugging and Error Handling 
+ * There are two types of errors in JavaScript. The first is a programming error, where we, the JavaScript developers, do something wrong. These types of errors are typically found using our favorite browser and our favorite debugger.
+
+* At a minimum, what we need from a debugger is the ability to stop program execution and then examine variables and objects at that point. It also helps if we can continue the program by steps, drill into functions, and examine network activity and the state of the DOM at any time. However, we can usually manage debugging if we have the ability to stop a program and examine object values.
+
+* The second type of error occurs when the web page reader answers a question incorrectly, pushes the wrong button, or tries to type in a Social Security number when we’re expecting a name. Or the error can happen when we’re mixing libraries and something goes wrong between them. We’ll look at these kinds of errors first, and then we’ll get into the various browsers and their debugging capabilities.
+* Several years ago, it wasn’t uncommon to find script blocks scattered about a page, generating web page content on the fly. To ensure that something showed up even if scripting was turned off, the developers would match the script with a noscript element. This noscript element would provide fallback page content or information. The noscript element has gone out of favor, and is listed as obsolete in HTML5. Now, web developers create the entire page and all of its content without any scripting enabled. Then, and only then, they’ll add script to make the page more helpful, interactive, or even fun.
+
+* For example, a web page can have several form elements. It’s workable, but having many form elements can take up a lot of space. However, the form elements have to be available if scripting is turned off.
+
+* To solve the problem, the developer can style the form elements to be displayed by default, and then use JavaScript to turn off the display of some of the elements when the page loads. Based on the web page reader’s actions, form elements will be displayed and hidden as needed. This ensures that the form elements are always available and only hidden when support for scripting is ensured.
